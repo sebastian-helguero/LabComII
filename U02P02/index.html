@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th>Alumno</th>
+                <th>Materia</th>
+                <th>Nota</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Juan Pablo</th>
+                <th>Matemáticas</th>
+                <th>5</th>
+                <th>Regular</th>
+            </tr>
+            <tr>
+                <th>Juan Ignacio</th>
+                <th>Matemáticas</th>
+                <th>8</th>
+                <th>Promovido</th>
+            </tr>
+            <tr>
+                <th>Juan Carlos</th>
+                <th>Matemáticas</th>
+                <th>1</th>
+                <th>Rinde</th>
+            </tr>
+        </tbody>
+    </table>
+</br>
+    <table>
+        <thead>
+            <tr>
+                <th>Jugador</th>
+                <th>Equipos en los que jugaron</th>
+                <th>Partidos jugados</th>
+                <th>Goles en su historia</th>
+                <th>Instagram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Lionel Messi</td>
+                <td>F. C. Barcelona (2004-21)</td>
+                <td rowspan="2">975</td>
+                <td rowspan="2">770</td>
+                <td rowspan="2"><a href="https://www.instagram.com/leomessi/?hl=es-la">instagram.com/leomessi</a></td>
+            </tr>
+            <tr>
+                <td>Paris Saint-Germain F. C. (2021-presente)</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Cristiano Ronaldo</td>
+                <td>Sporting C. P. (2002-03)</td>
+                <td rowspan="5">1122</td>
+                <td rowspan="5">815</td>
+                <td rowspan="5"><a href="https://www.instagram.com/cristiano/?hl=es-la">instagram.com/cristiano</a></td>
+                <tr><td>Manchester United F. C. (2003-09)</td></tr>
+                <tr><td>Real Madrid C. F. (2009-18)</td></tr>
+                <tr><td>Juventus F. C. (2018-21)</td></tr>
+                <tr><td>Manchester United F. C. (2021-Act.)</td></tr>
+            </tr>
+            <tr>
+            </tr><td rowspan="6">Robert Lewandowski</td>
+        <td>Legia de Varsovia II(2005-06)</td>
+        <td rowspan="6">776</td>
+        <td rowspan="6">563</td>
+        <td rowspan="6"><a href="https://www.instagram.com/_rl9/?hl=es-la">instagram.com/_rl9</a></td>
+            </tr>
+                <tr><td>Znicz Pruszków(2006-08)</td></tr>
+                <tr><td>Lech Poznań(2008-10)</td></tr>
+                <tr><td>B. V. Borussia(2010-14)</td></tr>
+                <tr><td>F. C. Bayern(2014-22)</td></tr>
+                <tr><td>F. C. Barcelona(2022-act.)</td></tr>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">El jugador con más goles:</td>
+                <td colspan="3">815 Goles</td>
+            </tr>
+            <tr>
+                <td colspan="2">El jugador con menos partidos es: </td>
+                <td colspan="3">Robert Lewandowski (776)</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
