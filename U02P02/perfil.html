@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    <h1>Perfil de estudiante</h1>
+<h2>Ingresa tus datos personales para conocerte más: </h2>
+    <fieldset>
+        <legend>Perfil de estudiante de TUP com. 3:</legend>
+    <form action="/perfil.html">
+        <label for="estado:">Estado</label>
+        <br/>
+        <input type="text" readonly value="Estudiante"/>
+    <br/>
+        <label for="Nombre y Apellido">Nombre y Apellido</label>
+        <br/>
+        <input type="text" id="Nombre y Apellido" name="Nombre y Apellido" size="20" autocomplete />
+    </br>
+        <label for="Email">Email</label>
+        <br/>
+        <input type="text" id="Email" name="Email" size="20"/>
+    <br/>
+        <label for="Edad">Edad</label>
+        <br/>
+        <input type="text" id="Edad" name="Edad"/>
+    <br/>
+        <label for="Nacionalidad">Nacionalidad</label>
+        <br/>
+        <select name="Nacionalidad" id="Nacionalidad">
+            <option>Argentino</option>
+            <option>Brasileño</option>
+            <option>Uruguayo</option>
+            <option>Venezolano</option>
+            <option>Colombiano</option>
+            <option>Otro</option>
+        </select>
+    <br/>
+        <label for="Estado Laboral">Estado Laboral</label>
+        <br/>
+        <select name="Estado Laboral" id="Estado Laboral">
+            <option>Desempleado</option>
+            <option>En búsqueda laboral</option>
+            <option>trabajo part time</option>
+            <option>trabajo full time</option>
+        </select>
+    <br/>
+        <label for="Gustos musicales">Gustos musicales</label>
+        <br/>
+        <input type="text" id="Gustos musicales" name="Gustos musicales"/>
+    <br/>
+    <label for="Comida Favorita">Comida Favorita</label>
+    <br/>
+    <select name="Comida Favorita" id="Comida Favorita">
+        <option>Carne</option>
+        <option>Vegetales</option>
+        <option>Pasta</option>
+        <option>Otro</option>
+    </select>
+    <br/>
+    <br/>
+    <input type="button" value="Enviar datos" />
+    <br/>
+    <label for="Guardar datos">Recordar datos</label>
+    <input type="checkbox" value="Guardar datos" />
+    </form>
+</fieldset>
+</body>
+</html>
